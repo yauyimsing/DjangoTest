@@ -9,4 +9,7 @@ Database: MySQL
 3. create MySQL database
 	(mysql -uroot -p)(password:mysql)
 	create database DjangoMySQL charset=utf8;
-	
+4. configurate setting.py with the database to be mysql
+5. python manage.py startapp booktest
+6. configurate setting.py with INSTALLED_APP adding app name
+
