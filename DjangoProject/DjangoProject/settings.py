@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'DjangoProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'DjangoTest'),
+        'NAME': 'DjangoMySQL',
         'USER':'root',
         'PASSWORD':'mysql',
         'HOST':'localhost',
